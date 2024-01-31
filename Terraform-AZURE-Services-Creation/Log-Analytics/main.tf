@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 data "azurerm_resource_group" "resource_group" {
-  name = "${var.name}-rg"
+  name = "${var.name}"
 }
 
 resource "azurerm_log_analytics_workspace" "Log_Analytics_WorkSpace" {
