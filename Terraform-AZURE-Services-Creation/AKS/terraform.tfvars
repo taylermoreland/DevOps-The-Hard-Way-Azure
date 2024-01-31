@@ -1,5 +1,5 @@
 name     = "nl004pa-tayler-dev"
-location = "uksouth"
+location = "WestEurope"
 
 kubernetes_version         = "1.28.3"
 agent_count                = 3
