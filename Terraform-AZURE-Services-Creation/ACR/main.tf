@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= 1.5.7"
   backend "azurerm" {
-    resource_group_name  = "devopshardway-rg"
-    storage_account_name = "devopshardwaysa"
+    resource_group_name  = "nl004pa-tayler-dev"
+    storage_account_name = "nl004devsa"
     container_name       = "tfstate"
     key                  = "acr-terraform.tfstate"
   }

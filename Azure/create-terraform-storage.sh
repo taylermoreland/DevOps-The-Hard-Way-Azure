@@ -1,7 +1,7 @@
 #!/bin/sh
 
-RESOURCE_GROUP_NAME="devopshardway-rg"
-STORAGE_ACCOUNT_NAME="devopshardwaysa"
+RESOURCE_GROUP_NAME="nl004pa-tayler-dev"
+STORAGE_ACCOUNT_NAME="nl004devsa"
 
 # Create Resource Group
 az group create -l uksouth -n $RESOURCE_GROUP_NAME
