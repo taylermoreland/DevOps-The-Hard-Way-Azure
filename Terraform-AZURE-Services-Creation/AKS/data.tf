@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "resource_group" {
-  name = "${var.name}-rg"
+  name = "nl004pa-tayler-dev"
 }
 
 data "azurerm_subnet" "akssubnet" {
