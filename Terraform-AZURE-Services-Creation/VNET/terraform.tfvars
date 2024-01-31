@@ -1,4 +1,4 @@
-name                      = "devopsthehardway"
+name                      = "nl004pa-tayler-dev"
 location                  = "uksouth"
 network_address_space     = "192.168.0.0/16"
 aks_subnet_address_name   = "aks"

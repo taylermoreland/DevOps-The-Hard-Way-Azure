@@ -1,4 +1,4 @@
-name     = "devopsthehardway"
+name     = "nl004pa-tayler-dev"
 location = "uksouth"
 
 kubernetes_version         = "1.28.3"
@@ -10,5 +10,5 @@ aks_admins_group_object_id = "e97b6454-3fa1-499e-8e5c-5d631e9ca4d1"
 tags = {
   "DeployedBy"  = "Terraform"
   "Environment" = "production"
-  "Project"     = "devopsthehardway"
+  "Project"     = "nl004pa-tayler-dev"
 }

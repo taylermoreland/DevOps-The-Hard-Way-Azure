@@ -8,7 +8,7 @@ Prior to running the pipeline, you'll need to set up authentication from GitHub 
 
 Using the below Az CLI (Note Down Secret): 
 
-`az ad sp create-for-rbac --name devopsthehardway`
+`az ad sp create-for-rbac --name nl004pa-tayler-dev`
 
 Alternatively - [this can be done via Azure Portal](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 

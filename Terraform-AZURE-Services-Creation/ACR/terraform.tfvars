@@ -1,8 +1,8 @@
-name     = "devopsthehardway"
+name     = "nl004pa-tayler-dev"
 location = "uksouth"
 
 tags = {
   "DeployedBy"  = "Terraform"
   "Environment" = "production"
-  "Project"     = "devopsthehardway"
+  "Project"     = "nl004pa-tayler-dev"
 }
