@@ -19,7 +19,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
   dns_prefix          = "${var.name}dns"
   kubernetes_version  = var.kubernetes_version
 
-  node_resource_group = "${var.name}-node-rg"
+  node_resource_group = "nl004pa-tayler-dev"
 
   linux_profile {
     admin_username = "ubuntu"
