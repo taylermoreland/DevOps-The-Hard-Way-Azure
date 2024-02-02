@@ -11,7 +11,7 @@ In this lab you will create:
 The Terraform `main.tf` will do a few things:
 - Use the `azurerm_kubernetes_cluster` Terraform resource to AKS Cluster 
 - Use the `azurerm_role_assignment` Terraform resource to create the two neccessary role assignments 
-- Use the `uksouth` region, but feel free to change that if you'd like
+- Use the `WestEurope` region, but feel free to change that if you'd like
 
 2. In line 8 of `terraform.tfvars` replace the actual Azure AD Group ID you noted down [earlier](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/Azure/2-Create-Azure-AD-Group-AKS-Admins.md)
 

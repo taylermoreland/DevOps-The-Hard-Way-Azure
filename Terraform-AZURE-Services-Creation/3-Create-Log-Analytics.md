@@ -9,7 +9,7 @@ In this lab you will create a Log Analytics workspace that will be used to view 
 The Terraform `main.tf` will do a few things:
 - Use the `azurerm_log_analytics_workspace` Terraform resource to create a Log Analytics workspace. 
 - Use the `azurerm_log_analytics_solution` Terraform resource to enable the Log Analytics solution ContainerInsights. 
-- Use the `uksouth` region, but feel free to change that if you'd like
+- Use the `WestEurope` region, but feel free to change that if you'd like
 
 2. Create the Log Analytics Workspace by running the following:
 - `terraform init` - To initialize the working directory and pull down the provider

@@ -1,5 +1,5 @@
 name     = "nl004pa-tayler-dev"
-location = "uksouth"
+location = "WestEurope"
 
 tags = {
   "DeployedBy"  = "Terraform"
