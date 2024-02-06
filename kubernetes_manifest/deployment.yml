@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: uber-ui
-        image: nl004pa-tayler-devacr.azurecr.io/uberapp:v1
+        image: nl004acrdev.azurecr.io/uberapp:v1
         ports:
         - containerPort: 5000
 ---

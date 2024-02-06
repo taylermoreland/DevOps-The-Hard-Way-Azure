@@ -7,7 +7,8 @@ Once you authenticate to AKS from your local terminal, a `kubeconfig` gets store
 ## Connecting To AKS
 
 1. Run the following command to connect to AKS:
-`az aks get-credentials --resource-group nl004pa-tayler-dev-rg --name nl004pa-tayler-devaks`
+`az aks get-credentials --resource-group nl004pa-tayler-dev --name nl004pa-tayler-devaks`
+
 
 2. Once connected, you should be able to run commands like the following to confirm you're connected:
 `kubectl get nodes`
