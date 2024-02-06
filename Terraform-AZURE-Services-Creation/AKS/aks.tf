@@ -33,7 +33,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     name                 = "agentpool"
     node_count           = var.agent_count
     vm_size              = var.vm_size
-    vnet_subnet_id       = data.azurerm_subnet.akssubnet.id
+    #vnet_subnet_id       = data.azurerm_subnet.akssubnet.id
     type                 = "VirtualMachineScaleSets"
     orchestrator_version = var.kubernetes_version
   }
